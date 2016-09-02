@@ -74,6 +74,24 @@ body{
   border: 1px solid #cda03a;
   cursor: pointer;
 }
+#titleContainer select{
+  display: inline-block;
+    border: 0px;
+    border-bottom: 1px solid #cda03a;
+    border-radius: 3px;
+    background: #3f3f3f;
+    color: #F3F3F3;
+    font-size: 21px;
+    font-family: 'Catamaran', sans-serif;
+    margin: 20px 49px;
+}
+#titleContainer h1{
+  display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 60%;
+    float: right;
+}
 /***********SPINNER*****************/
 #spinner {
   width: 40px;
@@ -140,4 +158,26 @@ body{
             transform: scale3D(0, 0, 1);
   }
 }
-/***********SPINNER*****************/
+
+/***********************BREAKPOINTS************************/
+/***********MOBILE****************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .Sound{
+    width: 48%;
+    height: 7%;
+  }
+}
+/***********Tablet****************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .Sound{
+    width: 31%;
+    height: 7%;
+  }
+}
+/************Between TABLET + MOBILE ******************/
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+  .Sound{
+    width: 31%;
+    height: 7%;
+  }
+}

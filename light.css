@@ -1,0 +1,27 @@
+body{
+  background-color: #eeeeee;
+}
+#container{
+    background-color: #f2f2f2;
+    border: 1px solid #cdcdcd;
+}
+#volLabel{
+  color: #4d4a4a;
+}
+#container h1 {
+    color: #4f4d4d;
+}
+#VolumeSlider{
+
+    background-color: #81621d;
+}
+.ui-slider-range-min {
+    background-color: #cda03a;
+}
+.Sound{
+    color: #242424;
+    background-color: #dddddd;
+}
+#SoundSection a{
+  color: #3f3f3f;
+}
